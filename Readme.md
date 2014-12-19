@@ -5,4 +5,6 @@ optimizations to your Web.config file
 
 ## Installation
 
-`install-package AtleX.Web.Config
+```
+install-package AtleX.Web.Config
+```

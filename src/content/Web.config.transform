@@ -3,10 +3,7 @@
     <system.webServer>
         <staticContent>
             <clientCache cacheControlMode="UseMaxAge" cacheControlMaxAge="7.00:00:00" />
-        </staticContent>		
-		<security>
-			<requestFiltering removeServerHeader="true" />
-		</security>
+        </staticContent>
 		<httpProtocol>
 			<customHeaders>
 				<remove name="X-Powered-By" />

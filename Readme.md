@@ -19,3 +19,7 @@ The `X-Powered-By` and `X-AspNet-Version` are removed from all responses.
 
 To prevent [Clickjacking](https://www.owasp.org/index.php/Clickjacking) an `X-Frame-Options` header 
 with the value `DENY` is added to all responses.
+
+## License
+
+See License.txt

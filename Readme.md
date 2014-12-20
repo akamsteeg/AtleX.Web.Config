@@ -27,9 +27,16 @@ The `X-Powered-By` and `X-AspNet-Version` are removed from all responses.
 To prevent [Clickjacking](https://www.owasp.org/index.php/Clickjacking) an 
 `X-Frame-Options` header with the value `DENY` is added to all responses.
 
-### Caching of static files
+### Compilation debug="false"
 
-Static files are cached by the client for up to 7 days.
+ The value of the `debug` attribute of the `Compilation` element is set to 
+ `false`.
+
+### Caching
+
+Static files are cached by the client for up to 7 days. The ASP Output Cache
+is disabled in the Web.config for development and debug purposes and enabled
+in Web.Release.config.
 
 ## License
 

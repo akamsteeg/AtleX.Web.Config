@@ -9,11 +9,11 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/akamsteeg/AtleX.Web.Config</projectUrl>
     <description>
-		AtleX.Web.Config applies some security- and performance related optimizations to your Web.config file,
+		AtleX.Web.Config applies some security- and performance related optimizations to your Web.config file.
 	</description>
     <releaseNotes>
 	</releaseNotes>
     <copyright>Copyright 2014</copyright>
-    <tags>optimization, configuration, security, cache</tags>
+    <tags>optimization, performance, configuration, security, cache</tags>
   </metadata>
 </package>

@@ -3,6 +3,11 @@
 A NuGet package that applies some security- and performance related
 optimizations to your Web.config file.
 
+Everytime I start a new ASP.net or ASP.net MVC project I find myself 
+applying the same settings to the Web.config over and over again. So,
+after doing that for the n-th time I spent a few moments creating
+this NuGet package to automate it.
+
 ## Installation
 
 ```
@@ -19,8 +24,8 @@ The `X-Powered-By` and `X-AspNet-Version` are removed from all responses.
 
 ### Prevent ClickJack
 
-To prevent [Clickjacking](https://www.owasp.org/index.php/Clickjacking) an `X-Frame-Options` header 
-with the value `DENY` is added to all responses.
+To prevent [Clickjacking](https://www.owasp.org/index.php/Clickjacking) an 
+`X-Frame-Options` header with the value `DENY` is added to all responses.
 
 ### Caching of static files
 

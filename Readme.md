@@ -13,7 +13,7 @@ install-package AtleX.Web.Config
 
 ### Remove excessive headers
 
-The `X-Powered-By` and `X-AspNetMvc-Version` are removed from all responses.
+The `X-Powered-By` and `X-AspNet-Version` are removed from all responses.
 
 ### Prevent ClickJack
 

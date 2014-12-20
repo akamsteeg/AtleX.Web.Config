@@ -8,9 +8,15 @@
     <owners>Alex Kamsteeg</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/akamsteeg/AtleX.Web.Config</projectUrl>
-    <description>
+    <summary>
 		AtleX.Web.Config applies some security- and performance related optimizations 
 		to your Web.config file.
+	</summary>
+	<description>
+		Everytime I start a new ASP.net or ASP.net MVC project I find myself 
+		applying the same settings to the Web.config over and over again. So,
+		after doing that for the n-th time I spent a few moments creating
+		this NuGet package to automate it.
 	</description>
     <releaseNotes>
 		-Disabled the Output Cache in Web.config for development and debugging purposes 

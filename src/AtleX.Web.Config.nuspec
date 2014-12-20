@@ -6,8 +6,11 @@
     <title>AtleX.Web.Config</title>
     <authors>Alex Kamsteeg</authors>
     <owners>Alex Kamsteeg</owners>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectUrl>https://github.com/akamsteeg/AtleX.Web.Config</projectUrl>
+	<copyright>Copyright 2014</copyright>
+	<licenseUrl>https://github.com/akamsteeg/AtleX.Web.Config/blob/master/License.txt</licenseUrl>	
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>optimization, performance, configuration, security, cache</tags>
     <summary>
 AtleX.Web.Config applies some security- and performance related optimizations to your Web.config file.
 	</summary>
@@ -18,7 +21,5 @@ Everytime I start a new ASP.net or ASP.net MVC project I find myself applying th
 -Disabled the Output Cache in Web.config for development and debugging purposes and enables it in Web.Release.config
 -Set the value of the "debug" attribute of the "compilation" element to false in Web.Release.config
 	</releaseNotes>
-    <copyright>Copyright 2014</copyright>
-    <tags>optimization, performance, configuration, security, cache</tags>
   </metadata>
 </package>

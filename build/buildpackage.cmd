@@ -1,6 +1,3 @@
-:: Clean the output folder
-if exist .\output rm .\output\*.*
-
 :: Create the output folder, if it doesn't exist
 if not exist .\output md .\output
 

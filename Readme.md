@@ -1,13 +1,15 @@
 # AtleX.Web.Config
 
 A NuGet package that applies some security- and performance related
-optimizations to your Web.config file
+optimizations to your Web.config file.
 
 ## Installation
 
 ```
 install-package AtleX.Web.Config
 ```
+
+The package is hosted [on NuGet.org](https://www.nuget.org/packages/AtleX.Web.Config/)
 
 ## Optimizations
 

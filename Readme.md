@@ -27,16 +27,22 @@ The `X-Powered-By` and `X-AspNet-Version` are removed from all responses.
 To prevent [Clickjacking](https://www.owasp.org/index.php/Clickjacking) an 
 `X-Frame-Options` header with the value `DENY` is added to all responses.
 
+### Configure the built-in XSS protection of browsers
+
+An `X-Xss-Protection` header is sent with the value `1; mode=block` to
+forcibly enable the reflective XSS protection found in Internet Explorer,
+Chrome and other Webkit browsers. [Read more](http://blogs.msdn.com/b/ie/archive/2008/07/02/ie8-security-part-iv-the-xss-filter.aspx)
+
+### Disable MIME type sniffing
+
+By sending an `X-Content-Type-Options` header Internet Explorer and Chrome 
+are honouring the MIME type sent by the server, instead of sniffing it from
+the file. This reduces the risk of malicious drive-by downloads.
+
 ### Compilation debug="false"
 
  The value of the `debug` attribute of the `Compilation` element is set to 
  `false`.
-
-### Caching
-
-Static files are cached by the client for up to 7 days. The ASP Output Cache
-is disabled in the Web.config for development and debug purposes and enabled
-in Web.Release.config.
 
 ## License
 

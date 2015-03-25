@@ -2,8 +2,5 @@
 <configuration>
 	<system.web>
 		<compilation debug="false" />
-		<caching>
-			<outputCache enableOutputCache="true" />
-		</caching>
 	</system.web>
 </configuration>
